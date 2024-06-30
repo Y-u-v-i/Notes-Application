@@ -1,0 +1,12 @@
+{
+    "scripts":{
+        "build-css":"npx tailwindcss -i ./src/one.css -o ./components/styles.css --watch"
+    },
+    "dependencies": {
+        "live-server":"^1.2.2"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.4.3"
+
+    }
+}
